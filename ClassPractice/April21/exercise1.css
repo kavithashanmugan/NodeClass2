@@ -1,0 +1,42 @@
+div{
+    font-family:"Times new Roman",serif;
+    font-size:14px;
+    font-weight: bold;
+    font-style:normal;
+    text-transform:capitalize;
+    text-align:left;
+    text-indent:50px;
+    background:powderblue;
+    text-decoration: solid underline red;
+    line-height: 20px;
+    border:2px dashed hotpink;
+}
+.custom{
+    color:purple;
+    text-shadow: 5px 5px 0.8px black;
+    border-top: 1px solid orange;
+    padding:5px;
+    margin:20px;
+    width:500px;
+    height:100px;
+}
+p{
+    font-size:12px;
+    font-weight:500;
+    font-style:italic;
+    text-decoration-color: palevioletred;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    border-width:1px 3px;
+    border-style:double;
+    border-color:indigo;
+    border-radius: 10px 2px;
+}
+span{
+    font-style:inherit;
+}
+.weekday{
+    font-style:normal;
+}

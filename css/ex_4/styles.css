@@ -1,0 +1,15 @@
+* {
+    color: green;
+  }
+#id{
+    color:gray;
+}
+.red{
+    color:red;
+}
+label{
+    color:pink;
+}
+input[type=submit]{
+    color:brown
+}
