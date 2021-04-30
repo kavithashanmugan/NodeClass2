@@ -1,0 +1,24 @@
+.firstSpan{
+border:1px dashed green;
+margin:5px;
+}
+.secondSpan{
+    border:1px solid green;
+    margin:5px;
+    width:50px;
+    display:block;
+}
+.thirdSpan{
+    border:1px solid green;
+    margin:5px;
+}
+.fourthSpan{
+    border:1px solid green;
+    margin:5px;
+    visibility: visible;
+    cursor: crosshair;
+}
+p{
+    background-image:url();
+    background-repeat:repeat;
+}

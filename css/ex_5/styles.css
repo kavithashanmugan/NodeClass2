@@ -1,0 +1,29 @@
+a:link {
+    color: red;
+  }
+a:hover{
+    color:orange;
+}  
+a:visited{
+    color:purple;
+}
+
+header h1{
+    color:lime;
+} 
+
+section > h1{
+    color:coral;
+}
+
+h1::first-letter{
+    color:black;
+}
+
+p + p {
+color:darkgoldenrod;
+}
+
+li ~ li{
+    color:deeppink;
+}

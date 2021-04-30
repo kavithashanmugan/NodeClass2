@@ -1,0 +1,31 @@
+html,body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+.container{
+    width:960px;
+    margin: 0 auto;
+    background-color: #ddd;
+    border: 1px solid gray;
+}
+.header{
+    padding:20px;
+    color:#eee;
+}
+
+.header,.footer{
+    background-color: gray;
+}
+
+ul.side{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+footer > p.love{
+    color: pink;
+}
