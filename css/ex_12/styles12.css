@@ -1,0 +1,24 @@
+ul{
+    border:1px solid blue;
+    background-color: lightblue;
+    padding:20px;
+    text-align:center;
+    /* font-size: 0%; */
+
+}
+
+li{
+    color:mediumblue;
+    display: inline-block;
+    border-right:1px dashed blue; 
+    padding:none;
+    padding-right:10px;
+    margin-right:10px;
+    font-size: 16px;
+
+
+}
+
+li:last-child{
+    border: none;
+}
