@@ -1,0 +1,15 @@
+{
+  "name": "may13",
+  "version": "1.0.0",
+  "description": "may13 class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "kavitha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
