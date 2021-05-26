@@ -1,0 +1,8 @@
+extends ./layout.pug
+block content
+  h1 superheroes
+  p This displays superhero information 
+  each item in superheroes
+    div.superhero-container
+      h4= item.name
+      a(href="/superheroes/" + item.id) details
