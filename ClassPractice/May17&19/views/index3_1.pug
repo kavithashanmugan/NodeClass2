@@ -1,0 +1,11 @@
+doctype html 
+include product-mixin
+html(lang='en')
+  head 
+    title= title 
+  body 
+    h1= message
+    div.container
+    p Starting using Pug!
+    +product({title: 'PS5', description: 'Gaming console'})
+    +product({title: 'Nintendo SWITCH', description: 'Another Gaming console'})

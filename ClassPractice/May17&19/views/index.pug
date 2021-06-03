@@ -1,11 +1,13 @@
-doctype html 
-include product-mixin
-html(lang='en')
-  head 
-    title= title 
-  body 
-    h1= message
-    div.container
-    p Starting using Pug!
-    +product({title: 'PS5', description: 'Gaming console'})
-    +product({title: 'Nintendo SWITCH', description: 'Another Gaming console'})
+extend ./layout.pug
+block content
+  h1 superheroes
+  p This displays superhero information 
+  include ./create.pug
+  //- include ./edit.pug
+  each item in documents
+    div.superhero-container
+      h4= item.name
+      h3= item.description
+      a(href="/superheroes/" + item._id) details
+      a(href="/edit/" + item._id) edit
+      a(href="/delete/" + item._id) delete

@@ -1,0 +1,23 @@
+extends ./layout.pug
+
+block content
+    h1 Edit your superheroes
+    div.create-container
+        form(action="/edit",  method="post")
+            input(type="hidden",required="required",name="_id",value=superhero._id)
+            input(type="text",  required="required", name="name", value=superhero.name)
+            input(type="text",  required="required", name="description", value=superhero.description)
+            br
+            
+            input(type='checkbox' name='weather' checked value='superhero.weather')
+            span=superhero.weather
+            
+            br
+            input(type='radio' name='color' checked value=superhero.color)
+            span=superhero.color
+            input(type='radio' name='color'  value='Blue')
+            span Blue
+            input(type='radio' name='color'  value='Red')
+            span Red
+            button Update
+            a(href="/") Home
